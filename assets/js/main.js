@@ -31,11 +31,15 @@ function onClick(element) {
 }
 var listaimages = document.getElementsByClassName("picture");
 var mostrarModal=function(){
-  console.log(this)
+  return this.src;
 }
 for (var i = 0; i < listaimages.length; i++) {
-  listaimages[i].addEventListener("click",mostrarModal)
+  listaimages[i].addEventListener("click",function(mostrarModal){
+    document.getElementById("img01").src =  this.src;
+    document.getElementById("modal01").style.display = "block";
+  });
 }
+
 //img0.addEventListener("click", function() {
   //event.preventDefault();
   //onClick(img0);
