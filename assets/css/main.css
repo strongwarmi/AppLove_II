@@ -87,7 +87,7 @@ a:hover {
   overflow: auto;
 }
 #home{
-  background-image: url(../img/bg-home.jpg);
+  background: url(../img/bg-home.jpg) ;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -99,9 +99,11 @@ a:hover {
   color: white;
   padding: 70px;
 }
+
 .text-home{
   font-size: 53px;
 }
+
 .btn-home{
   background: #2ECC71;
   color: #fff;
@@ -113,35 +115,35 @@ a:hover {
   display: inline-block;
   font-size: 14px;
 }
+
 #services{
   background-color: #F17C72;
   text-align: center;
   color: #fff;
   padding: 70px 7px;
 }
+
 .box-services{
   display: inline-block;
   width: 30%;
   margin-top: 63px;
 }
+
 .text-titular{
   font-size: 32px;
   letter-spacing: 2px; /*espacio entre cada letra*/
 }
+
 #work{
   text-align: center;
   color: #34393d;
   padding: 70px 7px;
 }
+
 .hero{
   width: 60%;
 }
-.galeria{
-  width: 25%;
-  height: 25%;
-  margin: 20px;
 
-}
 footer{
   text-align: center;
   height: 70px;

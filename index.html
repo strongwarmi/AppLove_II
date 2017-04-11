@@ -5,6 +5,7 @@
     <title>AppLover</title>
     <!-- App styles -->
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/modal.css">
       <!-- App Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700" rel="stylesheet">
   </head>
@@ -57,25 +58,23 @@
         <h2 class="text-uppercase text-titular mt-0">Work</h2>
         <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4>
         <img src="assets/img/hero.png" class="hero" alt="">
-        <div class="box-work">
-          <img src="assets/img/img-1.jpg" class="galeria" alt="">
-          <img src="assets/img/img-2.jpg" class="galeria" alt="">
-          <img src="assets/img/img-3.jpg" class="galeria" alt="">
-          <img src="assets/img/img-4.jpg" class="galeria" alt="">
-          <img src="assets/img/img-5.jpg" class="galeria" alt="">
-          <img src="assets/img/img-6.jpg" class="galeria" alt="">
-          <img src="assets/img/img-7.jpg" class="galeria" alt="">
-          <img src="assets/img/img-8.jpg" class="galeria" alt="">
-          <img src="assets/img/img-9.jpg" class="galeria" alt="">
-          <img src="assets/img/img-10.jpg" class="galeria" alt="">
-          <img src="assets/img/img-11.jpg" class="galeria" alt="">
-          <img src="assets/img/img-12.jpg" class="galeria" alt="">
+        <div class="box-work" id="portafolio">
+
         </div>
       </div>
-      <!-- ventana modal : https://www.w3schools.com/w3css/w3css_modal.asp -->
     </section>
     <footer>
       <p>© Copyright</p>
     </footer>
+    <!-- ventana modal : https://www.w3schools.com/w3css/w3css_modal.asp -->
+    <div id="modal01" class="modal" onclick="this.style.display='none'" style="display:none;">
+      <div class="modal-content">
+        <div class="modal-header">
+          <span  class="button_x">X</span>
+        </div>
+        <img id="img01" class="modal-picture">
+      </div>
+    </div>
+    <script type="text/javascript" src="assets/js/main.js"></script>
   </body>
 </html>
