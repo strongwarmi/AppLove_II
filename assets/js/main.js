@@ -25,10 +25,6 @@ function CreaPortafolio(){
 }
 CreaPortafolio();
 
-function onClick(element) {
-  document.getElementById("img01").src = element.src;
-  document.getElementById("modal01").style.display = "block";
-}
 var listaimages = document.getElementsByClassName("picture");
 var mostrarModal=function(){
   return this.src;
@@ -39,11 +35,5 @@ for (var i = 0; i < listaimages.length; i++) {
     document.getElementById("modal01").style.display = "block";
   });
 }
-
-//img0.addEventListener("click", function() {
-  //event.preventDefault();
-  //onClick(img0);
-  // console.log("dddd");
-//});//fin click
 
 });// fin load
